@@ -1,0 +1,34 @@
+{
+  "name": "aerodyne-node",
+  "version": "1.0.0",
+  "description": "Aerodyne-TELCO-INDONESIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/aerodynegroup/telco-indonesia/telco-6000-back-end-node.git"
+  },
+  "keywords": [
+    "Aerodyne",
+    "TELCO-INDONESIA"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aerodynegroup/telco-indonesia/telco-6000-back-end-node/issues"
+  },
+  "homepage": "https://gitlab.com/aerodynegroup/telco-indonesia/telco-6000-back-end-node#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "uuid": "^8.1.0"
+  }
+}

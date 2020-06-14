@@ -1,0 +1,58 @@
+{
+  "log": {
+    "streams": [
+      {
+        "level": "info",
+        "stream": "stdout"
+      },
+      {
+        "level": "info",
+        "path": "/tmp/server.log"
+      }
+    ]
+  },
+  "server": {
+    "hostname": "localhost",
+    "port": 3000,
+    "uploadDir": "",
+    "mountDir": "/api",
+    "headers": {
+      "authToken": "x-access-token",
+      "correlationId": "x-correlation-id"
+    }
+  },
+  "database": {
+    "protocol": "mongodb",
+    "host": "127.0.0.1",
+    "port": 27017,
+    "db": "aerodyne",
+    "user": "root",
+    "password": "123456",
+    "prod": false
+  },
+  "aws": {
+    "images_bucket": "",
+    "general_bucket": "",
+    "accessKeyId": "",
+    "secretAccessKey": ""
+  },
+  "nodeMailer": {
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "type": "OAuth2",
+        "user": "",
+        "serviceClient": "",
+        "privateKey": ""
+      }
+    },
+    "email": {
+      "from": ""
+    }
+  },
+  "jwt": {
+    "secretKey": "t3l(0"
+  }
+}
