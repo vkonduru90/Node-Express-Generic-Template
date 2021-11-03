@@ -67,7 +67,7 @@ app.get('/', (req, res) => {
   res.json({
     success: true,
     data: {
-      description: 'SmartBite API'
+      description: 'Welcome To API'
     }
   });
 });
